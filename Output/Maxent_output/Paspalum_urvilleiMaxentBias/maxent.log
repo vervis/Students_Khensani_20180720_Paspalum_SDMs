@@ -1,0 +1,1204 @@
+Wed Aug 15 15:52:25 CAT 2018
+MaxEnt version 3.4.1
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersEnv\wc2.0_bio_10m_01.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersEnv\wc2.0_bio_10m_04.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersEnv\wc2.0_bio_10m_12.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersEnv\wc2.0_bio_10m_14.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersEnv\wc2.0_bio_10m_15.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\Maxent_output\TGBias\bias_avg.asc
+Reading samples from occPaspalum_urvillei.csv
+Read samples: max memory 1883242496, total allocated 128974848, free 109629088, used 19345760, increment 19345760
+Extractor: max memory 1883242496, total allocated 128974848, free 104849824, used 24125024, increment 4779264
+Extracting random background and sample data
+Time since start: 1.056
+118200 points with values for all grids
+Adding samples to background in feature space
+Command line used:  nowarnings noprefixes responsecurves jackknife outputformat=raw noaskoverwrite -a -z threads=3 replicates=5 nothreshold nohinge noautofeature removeduplicates biastype=3 outputdirectory=Output/Maxent_output/Paspalum_urvilleiMaxentBias environmentallayers=Output/RastersEnv/ samplesfile=Output/OccurrenceData/occPaspalum_urvillei.csv biasfile=Output/Maxent_output/TGBias/bias_avg.asc
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputformat=raw outputdirectory=Output/Maxent_output/Paspalum_urvilleiMaxentBias samplesfile=Output/OccurrenceData/occPaspalum_urvillei.csv environmentallayers=Output/RastersEnv/ nowarnings noaskoverwrite biasfile=Output/Maxent_output/TGBias/bias_avg.asc replicates=5 nohinge autorun novisible noautofeature threads=3 biastype=3 noprefixes
+Species: Paspalum_urvillei_0 Paspalum_urvillei_1 Paspalum_urvillei_2 Paspalum_urvillei_3 Paspalum_urvillei_4
+Layers: wc2.0_bio_10m_01 wc2.0_bio_10m_04 wc2.0_bio_10m_12 wc2.0_bio_10m_14 wc2.0_bio_10m_15
+Layertypes: Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputformat: raw
+outputdirectory: Output/Maxent_output/Paspalum_urvilleiMaxentBias
+samplesfile: Output/OccurrenceData/occPaspalum_urvillei.csv
+environmentallayers: Output/RastersEnv/
+warnings: false
+askoverwrite: false
+biasfile: Output/Maxent_output/TGBias/bias_avg.asc
+replicates: 5
+hinge: false
+autorun: true
+visible: false
+autofeature: false
+threads: 3
+biastype: 3
+prefixes: false
+
+getSamples: max memory 1883242496, total allocated 128974848, free 99396608, used 29578240, increment 5453216
+Making features
+makeFeatures: max memory 1883242496, total allocated 128974848, free 97979920, used 30994928, increment 1416688
+Paspalum_urvillei_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 128974848, free 97276680, used 31698168, increment 703240
+linearPredictor: max memory 1883242496, total allocated 128974848, free 97276680, used 31698168, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 128974848, free 97276680, used 31698168, increment 0
+Sequential: max memory 1883242496, total allocated 128974848, free 97276680, used 31698168, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+Time since start: 3.328
+500: time = 1.920000 loss = 5.705233 testLoss 5.501850
+Resulting gain: 0.9922542051055228
+Time since start: 4.984
+Projecting...
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_0.asc
+Time since start: 7.1
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_0.png
+Time since start: 8.77
+Paspalum_urvillei_0 response curves
+Response curve: only wc2.0_bio_10m_01
+Response curve: only wc2.0_bio_10m_04
+Response curve: only wc2.0_bio_10m_12
+Response curve: only wc2.0_bio_10m_14
+Response curve: only wc2.0_bio_10m_15
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 130993312
+Paspalum_urvillei_0 wc2.0_bio_10m_01: 
+makeFeatures: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+Initial loss: 6.69748699750913
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 206931560, used 162691480, increment 0
+Initial loss: 6.69748699750913
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 5358296
+Paspalum_urvillei_0 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Initial loss: 6.69748699750913
+Time since start: 9.958
+80: time = 0.235000 loss = 6.674268
+Resulting gain: 0.023219155424695437
+Paspalum_urvillei_0 response curves
+120: time = 0.368000 loss = 6.403648
+Resulting gain: 0.29383867296482613
+Paspalum_urvillei_0 response curves
+180: time = 0.475000 loss = 6.211736
+Resulting gain: 0.4857505391244361
+Making features
+Paspalum_urvillei_0 response curves
+makeFeatures: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Initial loss: 6.69748699750913
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 201573264, used 168049776, increment 0
+Initial loss: 6.69748699750913
+80: time = 0.193000 loss = 6.668356
+Resulting gain: 0.029131085868125517
+Paspalum_urvillei_0 response curves
+120: time = 0.236000 loss = 6.625020
+Resulting gain: 0.072467040851806
+Paspalum_urvillei_0 response curves
+Time since start: 11.264
+Jackknife: leave wc2.0_bio_10m_01 out
+Jackknife: leave wc2.0_bio_10m_04 out
+Jackknife: leave wc2.0_bio_10m_12 out
+Jackknife: leave wc2.0_bio_10m_14 out
+Jackknife: leave wc2.0_bio_10m_15 out
+Jackknife: only wc2.0_bio_10m_01
+Jackknife: only wc2.0_bio_10m_04
+Jackknife: only wc2.0_bio_10m_12
+Jackknife: only wc2.0_bio_10m_14
+Jackknife: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 45617096
+Paspalum_urvillei_0 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+makeFeatures: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_12: 
+makeFeatures: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Density: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Density: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 155956168, used 213666872, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+440: time = 0.924000 loss = 6.000957 testLoss 5.789980
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 10716520
+Paspalum_urvillei_0 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+Time since start: 12.362
+500: time = 1.072000 loss = 5.731034 testLoss 5.536546
+500: time = 1.085000 loss = 6.109066 testLoss 5.938247
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+180: time = 0.394000 loss = 6.211736 testLoss 6.052365
+Res.gain: 0.4857505391244361
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+120: time = 0.315000 loss = 6.403648 testLoss 6.400293
+Res.gain: 0.29383867296482613
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+380: time = 0.916000 loss = 5.756932 testLoss 5.629521
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+80: time = 0.172000 loss = 6.674268 testLoss 6.642362
+Res.gain: 0.023219155424695437
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Paspalum_urvillei_0 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 145239648, used 224383392, increment 0
+Initial loss: 6.69748699750913
+Initial test loss: 6.69748699750913
+Time since start: 13.444
+500: time = 1.192000 loss = 5.709035 testLoss 5.482462
+80: time = 0.205000 loss = 6.668356 testLoss 6.675955
+Res.gain: 0.029131085868125517
+120: time = 0.240000 loss = 6.625020 testLoss 6.568784
+Res.gain: 0.072467040851806
+getSamples: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 11372480
+Making features
+makeFeatures: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 0
+Paspalum_urvillei_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 0
+linearPredictor: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 0
+Sequential: max memory 1883242496, total allocated 369623040, free 133867168, used 235755872, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+Time since start: 14.908
+500: time = 1.076000 loss = 5.730073 testLoss 5.408710
+Resulting gain: 0.9673213457027012
+Projecting...
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_1.asc
+Time since start: 17.572
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_1.png
+Time since start: 19.201
+Paspalum_urvillei_1 response curves
+Response curve: only wc2.0_bio_10m_01
+Response curve: only wc2.0_bio_10m_04
+Response curve: only wc2.0_bio_10m_12
+Response curve: only wc2.0_bio_10m_14
+Response curve: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment -39277704
+Paspalum_urvillei_1 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+makeFeatures: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Initial loss: 6.697393915579121
+makeFeatures: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment -39277704
+Paspalum_urvillei_1 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+228 samples
+Initial loss: 6.697393915579121
+Density: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 129628968, used 196478168, increment 0
+Initial loss: 6.697393915579121
+100: time = 0.214000 loss = 6.677392
+Resulting gain: 0.02000211124681517
+Paspalum_urvillei_1 response curves
+Time since start: 20.269
+120: time = 0.297000 loss = 6.442862
+Resulting gain: 0.2545322395062595
+Paspalum_urvillei_1 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 5440704
+Paspalum_urvillei_1 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+Initial loss: 6.697393915579121
+180: time = 0.403000 loss = 6.187557
+Resulting gain: 0.509836706844637
+Paspalum_urvillei_1 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 124188264, used 201918872, increment 0
+Initial loss: 6.697393915579121
+80: time = 0.196000 loss = 6.671782
+Resulting gain: 0.025611913015324284
+Paspalum_urvillei_1 response curves
+120: time = 0.237000 loss = 6.625065
+Resulting gain: 0.07232876960615986
+Paspalum_urvillei_1 response curves
+Jackknife: leave wc2.0_bio_10m_01 out
+Jackknife: leave wc2.0_bio_10m_04 out
+Jackknife: leave wc2.0_bio_10m_12 out
+Jackknife: leave wc2.0_bio_10m_14 out
+Jackknife: leave wc2.0_bio_10m_15 out
+Jackknife: only wc2.0_bio_10m_01
+Jackknife: only wc2.0_bio_10m_04
+Jackknife: only wc2.0_bio_10m_12
+Jackknife: only wc2.0_bio_10m_14
+Jackknife: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 84484384, used 241622752, increment 39703880
+Paspalum_urvillei_1 wc2.0_bio_10m_04: 
+makeFeatures: max memory 1883242496, total allocated 326107136, free 84484384, used 241622752, increment 0
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Paspalum_urvillei_1 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 84321024, used 241786112, increment 163360
+linearPredictor: max memory 1883242496, total allocated 326107136, free 84239344, used 241867792, increment 81680
+Density: max memory 1883242496, total allocated 326107136, free 84239344, used 241867792, increment 81680
+linearPredictor: max memory 1883242496, total allocated 326107136, free 84157664, used 241949472, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 83994304, used 242112832, increment 163360
+Sequential: max memory 1883242496, total allocated 326107136, free 83994304, used 242112832, increment 0
+makeFeatures: max memory 1883242496, total allocated 326107136, free 83994304, used 242112832, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 83994304, used 242112832, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_12: 
+Initial loss: 6.697393915579121
+Sequential: max memory 1883242496, total allocated 326107136, free 83994304, used 242112832, increment 0
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Initial test loss: 6.697393915579121
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+Density: max memory 1883242496, total allocated 326107136, free 81409888, used 244697248, increment 2584416
+linearPredictor: max memory 1883242496, total allocated 326107136, free 81409888, used 244697248, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 81409888, used 244697248, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 81409888, used 244697248, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+Time since start: 22.217
+480: time = 0.976000 loss = 5.991133 testLoss 5.838725
+Making features
+440: time = 1.002000 loss = 6.139728 testLoss 5.805224
+makeFeatures: max memory 1883242496, total allocated 326107136, free 78825432, used 247281704, increment 2584456
+Paspalum_urvillei_1 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 2585024
+linearPredictor: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+500: time = 1.141000 loss = 5.757790 testLoss 5.453636
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+180: time = 0.352000 loss = 6.187557 testLoss 6.158674
+Res.gain: 0.509836706844637
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 76240408, used 249866728, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+120: time = 0.280000 loss = 6.442862 testLoss 6.251454
+Res.gain: 0.2545322395062595
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 73726552, used 252380584, increment 2513856
+Paspalum_urvillei_1 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 73726552, used 252380584, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 73726552, used 252380584, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 73726552, used 252380584, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 73726552, used 252380584, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+Time since start: 23.25
+100: time = 0.205000 loss = 6.677392 testLoss 6.633933
+Res.gain: 0.02000211124681517
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 2502864
+Paspalum_urvillei_1 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+500: time = 1.023000 loss = 5.789749 testLoss 5.535747
+Making features
+makeFeatures: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+Paspalum_urvillei_1 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+linearPredictor: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+Sequential: max memory 1883242496, total allocated 326107136, free 71223688, used 254883448, increment 0
+Initial loss: 6.697393915579121
+Initial test loss: 6.697393915579121
+500: time = 1.105000 loss = 5.730537 testLoss 5.422662
+80: time = 0.203000 loss = 6.671782 testLoss 6.665349
+Res.gain: 0.025611913015324284
+120: time = 0.257000 loss = 6.625065 testLoss 6.565487
+Res.gain: 0.07232876960615986
+getSamples: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment -232061560
+Time since start: 24.529
+Making features
+makeFeatures: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment 0
+Paspalum_urvillei_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment 0
+linearPredictor: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment 0
+Sequential: max memory 1883242496, total allocated 326631424, free 303809536, used 22821888, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+Time since start: 25.672
+500: time = 1.090000 loss = 5.681468 testLoss 5.650329
+Resulting gain: 1.0181854887615316
+Projecting...
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_2.asc
+Time since start: 28.017
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_2.png
+Time since start: 30.01
+Paspalum_urvillei_2 response curves
+Response curve: only wc2.0_bio_10m_01
+Response curve: only wc2.0_bio_10m_04
+Response curve: only wc2.0_bio_10m_12
+Response curve: only wc2.0_bio_10m_14
+Response curve: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 150928144
+makeFeatures: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 150928144
+Paspalum_urvillei_2 wc2.0_bio_10m_12: 
+makeFeatures: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Paspalum_urvillei_2 wc2.0_bio_10m_04: 
+Paspalum_urvillei_2 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+228 samples
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Density: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Density: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Initial loss: 6.699653182315419
+Sequential: max memory 1883242496, total allocated 295698432, free 121948400, used 173750032, increment 0
+Initial loss: 6.699653182315419
+Initial loss: 6.699653182315419
+80: time = 0.171000 loss = 6.664989
+Resulting gain: 0.03466409630573697
+Paspalum_urvillei_2 response curves
+120: time = 0.289000 loss = 6.392028
+Resulting gain: 0.3076252565133739
+Paspalum_urvillei_2 response curves
+Time since start: 31.067
+180: time = 0.374000 loss = 6.214088
+Resulting gain: 0.48556487214417565
+Paspalum_urvillei_2 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 113525760, used 182172672, increment 8422640
+Paspalum_urvillei_2 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 113525760, used 182172672, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 113525760, used 182172672, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 113525760, used 182172672, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 113525760, used 182172672, increment 0
+Initial loss: 6.699653182315419
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 112129312, used 183569120, increment 1396448
+Paspalum_urvillei_2 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 112129312, used 183569120, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 112129312, used 183569120, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 112129312, used 183569120, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 112129312, used 183569120, increment 0
+Initial loss: 6.699653182315419
+80: time = 0.187000 loss = 6.672741
+Resulting gain: 0.026912094578329437
+Paspalum_urvillei_2 response curves
+120: time = 0.252000 loss = 6.612734
+Resulting gain: 0.08691896780857622
+Paspalum_urvillei_2 response curves
+Time since start: 32.192
+Jackknife: leave wc2.0_bio_10m_01 out
+Jackknife: leave wc2.0_bio_10m_04 out
+Jackknife: leave wc2.0_bio_10m_12 out
+Jackknife: leave wc2.0_bio_10m_14 out
+Jackknife: leave wc2.0_bio_10m_15 out
+Jackknife: only wc2.0_bio_10m_01
+Jackknife: only wc2.0_bio_10m_04
+Jackknife: only wc2.0_bio_10m_12
+Jackknife: only wc2.0_bio_10m_14
+Jackknife: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 80638080, used 215060352, increment 31491232
+Paspalum_urvillei_2 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+makeFeatures: max memory 1883242496, total allocated 295698432, free 80556408, used 215142024, increment 81672
+Paspalum_urvillei_2 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 80474736, used 215223696, increment 81672
+linearPredictor: max memory 1883242496, total allocated 295698432, free 80393064, used 215305368, increment 81672
+Density: max memory 1883242496, total allocated 295698432, free 78940656, used 216757776, increment 1452408
+linearPredictor: max memory 1883242496, total allocated 295698432, free 78940656, used 216757776, increment 0
+makeFeatures: max memory 1883242496, total allocated 295698432, free 78858984, used 216839448, increment 81672
+Paspalum_urvillei_2 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 78858984, used 216839448, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 78858984, used 216839448, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+Density: max memory 1883242496, total allocated 295698432, free 78777312, used 216921120, increment 81672
+linearPredictor: max memory 1883242496, total allocated 295698432, free 78695640, used 217002792, increment 81672
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 78695640, used 217002792, increment 81672
+Sequential: max memory 1883242496, total allocated 295698432, free 78695640, used 217002792, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 78695640, used 217002792, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 78695640, used 217002792, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+Time since start: 33.26
+420: time = 1.045000 loss = 6.037179 testLoss 6.268053
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 75252296, used 220446136, increment 3443344
+Paspalum_urvillei_2 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 75170624, used 220527808, increment 81672
+linearPredictor: max memory 1883242496, total allocated 295698432, free 75088952, used 220609480, increment 81672
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 75088952, used 220609480, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 75088952, used 220609480, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+500: time = 1.134000 loss = 6.013146 testLoss 5.767734
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 74272232, used 221426200, increment 816720
+Paspalum_urvillei_2 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 1452408
+linearPredictor: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+500: time = 1.197000 loss = 5.710046 testLoss 5.678438
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+Paspalum_urvillei_2 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 72819824, used 222878608, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+180: time = 0.357000 loss = 6.214088 testLoss 6.063831
+Res.gain: 0.48556487214417565
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 70022512, used 225675920, increment 2797312
+Paspalum_urvillei_2 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 70022512, used 225675920, increment 0
+linearPredictor: max memory 1883242496, total allocated 295698432, free 70022512, used 225675920, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 70022512, used 225675920, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 70022512, used 225675920, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+120: time = 0.292000 loss = 6.392028 testLoss 6.477665
+Res.gain: 0.3076252565133739
+Making features
+makeFeatures: max memory 1883242496, total allocated 295698432, free 69859168, used 225839264, increment 163344
+Paspalum_urvillei_2 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 295698432, free 69777496, used 225920936, increment 81672
+linearPredictor: max memory 1883242496, total allocated 295698432, free 69695824, used 226002608, increment 81672
+FeaturedSpace: max memory 1883242496, total allocated 295698432, free 69695824, used 226002608, increment 0
+Sequential: max memory 1883242496, total allocated 295698432, free 69695824, used 226002608, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+80: time = 0.167000 loss = 6.664989 testLoss 6.690642
+Res.gain: 0.03466409630573697
+Time since start: 34.266
+Making features
+makeFeatures: max memory 1883242496, total allocated 276299776, free 239468656, used 36831120, increment -189171488
+Paspalum_urvillei_2 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 276299776, free 239468656, used 36831120, increment 0
+linearPredictor: max memory 1883242496, total allocated 276299776, free 239468656, used 36831120, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 276299776, free 239468656, used 36831120, increment 0
+Sequential: max memory 1883242496, total allocated 276299776, free 239468656, used 36831120, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+500: time = 1.091000 loss = 5.684424 testLoss 5.649719
+Making features
+makeFeatures: max memory 1883242496, total allocated 276299776, free 239468632, used 36831144, increment 24
+Paspalum_urvillei_2 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 276299776, free 239468632, used 36831144, increment 0
+linearPredictor: max memory 1883242496, total allocated 276299776, free 239468632, used 36831144, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 276299776, free 239468632, used 36831144, increment 0
+Sequential: max memory 1883242496, total allocated 276299776, free 239468632, used 36831144, increment 0
+Initial loss: 6.699653182315419
+Initial test loss: 6.699653182315419
+500: time = 1.072000 loss = 5.749089 testLoss 5.744839
+80: time = 0.178000 loss = 6.672741 testLoss 6.666471
+Res.gain: 0.026912094578329437
+120: time = 0.205000 loss = 6.612734 testLoss 6.626427
+Res.gain: 0.08691896780857622
+getSamples: max memory 1883242496, total allocated 276299776, free 230553000, used 45746776, increment 8915632
+Making features
+makeFeatures: max memory 1883242496, total allocated 276299776, free 227033512, used 49266264, increment 3519488
+Paspalum_urvillei_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 276299776, free 227033512, used 49266264, increment 0
+linearPredictor: max memory 1883242496, total allocated 276299776, free 227033512, used 49266264, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 276299776, free 227033512, used 49266264, increment 0
+Sequential: max memory 1883242496, total allocated 276299776, free 227033512, used 49266264, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+Time since start: 36.169
+500: time = 1.232000 loss = 5.704906 testLoss 5.453728
+Resulting gain: 0.9939831944788899
+Projecting...
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_3.asc
+Time since start: 39.091
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_3.png
+Time since start: 40.899
+Paspalum_urvillei_3 response curves
+Response curve: only wc2.0_bio_10m_01
+Response curve: only wc2.0_bio_10m_04
+Response curve: only wc2.0_bio_10m_12
+Response curve: only wc2.0_bio_10m_14
+Response curve: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 154130368
+Paspalum_urvillei_3 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+makeFeatures: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+makeFeatures: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Paspalum_urvillei_3 wc2.0_bio_10m_04: 
+Paspalum_urvillei_3 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+228 samples
+Density: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Density: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Density: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+linearPredictor: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+linearPredictor: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+linearPredictor: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Sequential: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Sequential: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Initial loss: 6.6988892864601555
+Initial loss: 6.6988892864601555
+FeaturedSpace: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Sequential: max memory 1883242496, total allocated 254279680, free 50883048, used 203396632, increment 0
+Initial loss: 6.6988892864601555
+100: time = 0.219000 loss = 6.675018
+Resulting gain: 0.023871714230825347
+Paspalum_urvillei_3 response curves
+120: time = 0.319000 loss = 6.413715
+Resulting gain: 0.28517468734733065
+Paspalum_urvillei_3 response curves
+Time since start: 41.908
+Making features
+makeFeatures: max memory 1883242496, total allocated 254279680, free 44385208, used 209894472, increment 6497840
+Paspalum_urvillei_3 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 254279680, free 44385208, used 209894472, increment 0
+linearPredictor: max memory 1883242496, total allocated 254279680, free 44385208, used 209894472, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 254279680, free 44385208, used 209894472, increment 0
+Sequential: max memory 1883242496, total allocated 254279680, free 44385208, used 209894472, increment 0
+Initial loss: 6.6988892864601555
+180: time = 0.392000 loss = 6.196615
+Resulting gain: 0.5022739721056855
+Paspalum_urvillei_3 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 172855528, used 64122648, increment -145771824
+Paspalum_urvillei_3 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 172773848, used 64204328, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 172692168, used 64286008, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 172692168, used 64286008, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 172692168, used 64286008, increment 0
+Initial loss: 6.6988892864601555
+80: time = 0.206000 loss = 6.680151
+Resulting gain: 0.018738524012979596
+Paspalum_urvillei_3 response curves
+120: time = 0.229000 loss = 6.616713
+Resulting gain: 0.08217609239397294
+Paspalum_urvillei_3 response curves
+Jackknife: leave wc2.0_bio_10m_01 out
+Jackknife: leave wc2.0_bio_10m_04 out
+Jackknife: leave wc2.0_bio_10m_12 out
+Jackknife: leave wc2.0_bio_10m_14 out
+Jackknife: leave wc2.0_bio_10m_15 out
+Jackknife: only wc2.0_bio_10m_01
+Jackknife: only wc2.0_bio_10m_04
+Jackknife: only wc2.0_bio_10m_12
+Jackknife: only wc2.0_bio_10m_14
+Jackknife: only wc2.0_bio_10m_15
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 138557992, used 98420184, increment 34134176
+Paspalum_urvillei_3 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 138394632, used 98583544, increment 163360
+linearPredictor: max memory 1883242496, total allocated 236978176, free 138312952, used 98665224, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 138067912, used 98910264, increment 245040
+Sequential: max memory 1883242496, total allocated 236978176, free 138067912, used 98910264, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+makeFeatures: max memory 1883242496, total allocated 236978176, free 137577832, used 99400344, increment 490080
+Paspalum_urvillei_3 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 137234464, used 99743712, increment 343368
+linearPredictor: max memory 1883242496, total allocated 236978176, free 137234464, used 99743712, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 137234464, used 99743712, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 137234464, used 99743712, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 136172624, used 100805552, increment 1061840
+Paspalum_urvillei_3 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 136090944, used 100887232, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 136009264, used 100968912, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 136009264, used 100968912, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 136009264, used 100968912, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+Time since start: 43.87
+440: time = 0.990000 loss = 6.000109 testLoss 5.799204
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 133080160, used 103898016, increment 2929104
+Paspalum_urvillei_3 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 132998480, used 103979696, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 132916800, used 104061376, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 132916800, used 104061376, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 132916800, used 104061376, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+500: time = 1.131000 loss = 5.731223 testLoss 5.483636
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 131177096, used 105801080, increment 1739704
+Paspalum_urvillei_3 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 131095416, used 105882760, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 131013736, used 105964440, increment 81680
+500: time = 1.194000 loss = 6.098734 testLoss 5.918076
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 131013736, used 105964440, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 131013736, used 105964440, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 130593040, used 106385136, increment 420696
+Paspalum_urvillei_3 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 130511360, used 106466816, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 130429680, used 106548496, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 130429680, used 106548496, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 130429680, used 106548496, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+180: time = 0.409000 loss = 6.196615 testLoss 6.131095
+Res.gain: 0.5022739721056855
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 128950056, used 108028120, increment 1479624
+Paspalum_urvillei_3 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 128868376, used 108109800, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 128786696, used 108191480, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 128786696, used 108191480, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 128786696, used 108191480, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+120: time = 0.287000 loss = 6.413715 testLoss 6.361549
+Res.gain: 0.28517468734733065
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 128026984, used 108951192, increment 759712
+Paspalum_urvillei_3 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 127945304, used 109032872, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 127863624, used 109114552, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 127863624, used 109114552, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 127863624, used 109114552, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+Time since start: 45.001
+100: time = 0.215000 loss = 6.675018 testLoss 6.649421
+Res.gain: 0.023871714230825347
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 126760408, used 110217768, increment 1103216
+Paspalum_urvillei_3 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 126678728, used 110299448, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 126597048, used 110381128, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 126597048, used 110381128, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 126597048, used 110381128, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+500: time = 1.154000 loss = 5.704778 testLoss 5.459141
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 126171976, used 110806200, increment 425072
+Paspalum_urvillei_3 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 126090296, used 110887880, increment 81680
+linearPredictor: max memory 1883242496, total allocated 236978176, free 126008616, used 110969560, increment 81680
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 126008616, used 110969560, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 126008616, used 110969560, increment 0
+Initial loss: 6.6988892864601555
+Initial test loss: 6.6988892864601555
+80: time = 0.172000 loss = 6.680151 testLoss 6.635685
+Res.gain: 0.018738524012979596
+500: time = 1.123000 loss = 5.777789 testLoss 5.512142
+120: time = 0.224000 loss = 6.616713 testLoss 6.606998
+Res.gain: 0.08217609239397294
+getSamples: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 8405824
+Making features
+makeFeatures: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 0
+Paspalum_urvillei_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 0
+linearPredictor: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 0
+Sequential: max memory 1883242496, total allocated 236978176, free 117602792, used 119375384, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Time since start: 46.67
+500: time = 1.123000 loss = 5.692460 testLoss 5.561189
+Resulting gain: 1.0048778953938449
+Projecting...
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_4.asc
+Time since start: 49.385
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_4.png
+Time since start: 51.237
+Paspalum_urvillei_4 response curves
+Response curve: only wc2.0_bio_10m_01
+Response curve: only wc2.0_bio_10m_04
+Response curve: only wc2.0_bio_10m_12
+Response curve: only wc2.0_bio_10m_14
+Response curve: only wc2.0_bio_10m_15
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 226227520, used 22284992, increment -97090392
+Paspalum_urvillei_4 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 225947960, used 22564552, increment 279560
+Paspalum_urvillei_4 wc2.0_bio_10m_04: 
+Density: max memory 1883242496, total allocated 248512512, free 225947960, used 22564552, increment 0
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+linearPredictor: max memory 1883242496, total allocated 248512512, free 225866304, used 22646208, increment 81656
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 225866304, used 22646208, increment 0
+linearPredictor: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+makeFeatures: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+Paspalum_urvillei_4 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+228 samples
+Sequential: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+Initial loss: 6.69733819594859
+Initial loss: 6.69733819594859
+Density: max memory 1883242496, total allocated 248512512, free 225784648, used 22727864, increment 0
+linearPredictor: max memory 1883242496, total allocated 248512512, free 225702992, used 22809520, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 225702992, used 22809520, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 225702992, used 22809520, increment 0
+Initial loss: 6.69733819594859
+100: time = 0.203000 loss = 6.674123
+Resulting gain: 0.023214744163566614
+Paspalum_urvillei_4 response curves
+120: time = 0.266000 loss = 6.390233
+Resulting gain: 0.30710527923088105
+Paspalum_urvillei_4 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 217863960, used 30648552, increment 7839032
+Paspalum_urvillei_4 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 217584480, used 30928032, increment 279480
+linearPredictor: max memory 1883242496, total allocated 248512512, free 217584480, used 30928032, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 217584480, used 30928032, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 217584480, used 30928032, increment 0
+Initial loss: 6.69733819594859
+180: time = 0.377000 loss = 6.220435
+Resulting gain: 0.47690303894990116
+Paspalum_urvillei_4 response curves
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 214857848, used 33654664, increment 2726632
+Paspalum_urvillei_4 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 214776192, used 33736320, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 214694536, used 33817976, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 214694536, used 33817976, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 214694536, used 33817976, increment 0
+Initial loss: 6.69733819594859
+Time since start: 52.4
+80: time = 0.215000 loss = 6.668541
+Resulting gain: 0.02879710801695623
+Paspalum_urvillei_4 response curves
+120: time = 0.252000 loss = 6.614601
+Resulting gain: 0.08273714292807721
+Paspalum_urvillei_4 response curves
+Jackknife: leave wc2.0_bio_10m_01 out
+Jackknife: leave wc2.0_bio_10m_04 out
+Jackknife: leave wc2.0_bio_10m_12 out
+Jackknife: leave wc2.0_bio_10m_14 out
+Jackknife: leave wc2.0_bio_10m_15 out
+Jackknife: only wc2.0_bio_10m_01
+Jackknife: only wc2.0_bio_10m_04
+Jackknife: only wc2.0_bio_10m_12
+Jackknife: only wc2.0_bio_10m_14
+Jackknife: only wc2.0_bio_10m_15
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 177874072, used 70638440, increment 36820464
+Paspalum_urvillei_4 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+makeFeatures: max memory 1883242496, total allocated 248512512, free 177710760, used 70801752, increment 163312
+makeFeatures: max memory 1883242496, total allocated 248512512, free 177710760, used 70801752, increment 163312
+Density: max memory 1883242496, total allocated 248512512, free 177629104, used 70883408, increment 81656
+Paspalum_urvillei_4 wc2.0_bio_10m_12: 
+linearPredictor: max memory 1883242496, total allocated 248512512, free 177547448, used 70965064, increment 81656
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Paspalum_urvillei_4 wc2.0_bio_10m_01: 
+228 samples
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 177465792, used 71046720, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 177384136, used 71128376, increment 81656
+Density: max memory 1883242496, total allocated 248512512, free 177302480, used 71210032, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 177220824, used 71291688, increment 0
+Initial loss: 6.69733819594859
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Time since start: 54.235
+500: time = 1.131000 loss = 6.019224 testLoss 5.722495
+500: time = 1.129000 loss = 5.722556 testLoss 5.587414
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 172704232, used 75808280, increment 4516592
+Paspalum_urvillei_4 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 172540920, used 75971592, increment 163312
+linearPredictor: max memory 1883242496, total allocated 248512512, free 172459264, used 76053248, increment 81656
+makeFeatures: max memory 1883242496, total allocated 248512512, free 172377608, used 76134904, increment 81656
+Paspalum_urvillei_4 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 172377608, used 76134904, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 172377608, used 76134904, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Density: max memory 1883242496, total allocated 248512512, free 172295952, used 76216560, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 172214296, used 76298216, increment 81656
+500: time = 1.152000 loss = 6.070726 testLoss 6.090476
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 172214296, used 76298216, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 172214296, used 76298216, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 171106472, used 77406040, increment 1107824
+Paspalum_urvillei_4 wc2.0_bio_10m_01: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 170839208, used 77673304, increment 267264
+linearPredictor: max memory 1883242496, total allocated 248512512, free 170839208, used 77673304, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 170839208, used 77673304, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 170839208, used 77673304, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+180: time = 0.354000 loss = 6.220435 testLoss 6.025548
+Res.gain: 0.47690303894990116
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 169547376, used 78965136, increment 1291832
+Paspalum_urvillei_4 wc2.0_bio_10m_04: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 169465720, used 79046792, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 169384064, used 79128448, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 169384064, used 79128448, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 169384064, used 79128448, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+440: time = 0.928000 loss = 5.754865 testLoss 5.651559
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 168861576, used 79650936, increment 522488
+Paspalum_urvillei_4 wc2.0_bio_10m_12: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 168779920, used 79732592, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 168698264, used 79814248, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 168698264, used 79814248, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 168698264, used 79814248, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+Time since start: 55.269
+500: time = 1.009000 loss = 5.694865 testLoss 5.562973
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 168148792, used 80363720, increment 549472
+Paspalum_urvillei_4 wc2.0_bio_10m_14: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 168067136, used 80445376, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 167985480, used 80527032, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 167985480, used 80527032, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 167985480, used 80527032, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+120: time = 0.277000 loss = 6.390233 testLoss 6.460609
+Res.gain: 0.30710527923088105
+Making features
+makeFeatures: max memory 1883242496, total allocated 248512512, free 166928968, used 81583544, increment 1056512
+Paspalum_urvillei_4 wc2.0_bio_10m_15: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+228 samples
+Density: max memory 1883242496, total allocated 248512512, free 166847312, used 81665200, increment 81656
+linearPredictor: max memory 1883242496, total allocated 248512512, free 166765656, used 81746856, increment 81656
+FeaturedSpace: max memory 1883242496, total allocated 248512512, free 166765656, used 81746856, increment 0
+Sequential: max memory 1883242496, total allocated 248512512, free 166765656, used 81746856, increment 0
+Initial loss: 6.69733819594859
+Initial test loss: 6.69733819594859
+100: time = 0.196000 loss = 6.674123 testLoss 6.641646
+Res.gain: 0.023214744163566614
+80: time = 0.176000 loss = 6.668541 testLoss 6.673596
+Res.gain: 0.02879710801695623
+120: time = 0.175000 loss = 6.614601 testLoss 6.607906
+Res.gain: 0.08273714292807721
+Creating average grid, stddev grid etc.
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_avg.asc
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_stddev.asc
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_min.asc
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_max.asc
+Writing file Output\Maxent_output\Paspalum_urvilleiMaxentBias\Paspalum_urvillei_median.asc
+Time since start: 60.959
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_avg.png
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_stddev.png
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_min.png
+Time since start: 62.884
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_max.png
+Writing Output\Maxent_output\Paspalum_urvilleiMaxentBias\plots\Paspalum_urvillei_median.png
+Time since start: 64.581
+Paspalum_urvillei average response curves
+Time since start: 67.065
+Ending

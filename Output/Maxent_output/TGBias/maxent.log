@@ -1,0 +1,585 @@
+Wed Aug 15 15:41:03 CAT 2018
+MaxEnt version 3.4.1
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\popDens.asc
+Checking header of C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\roadDens.asc
+Reading samples from occBack.csv
+Read samples: max memory 1883242496, total allocated 128974848, free 101664024, used 27310824, increment 27310824
+Converting file C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\popDens.asc size 12602958, max memory = 1883242496
+Reading file popDens.asc
+FLOAT, 118810 pixels with data
+readGrid: max memory 1883242496, total allocated 234881024, free 164619208, used 70261816, increment 42950992
+Writing file C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\maxent.cache\popDens.mxe
+Time since start: 1.095
+Converting file C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\roadDens.asc size 10813682, max memory = 1883242496
+Reading file roadDens.asc
+FLOAT, 204916 pixels with data
+readGrid: max memory 1883242496, total allocated 371720192, free 320058320, used 51661872, increment -18599944
+Writing file C:\Users\Vernon\Dropbox\Work\GitHub\Students_Khensani_20180720_Paspalum_SDMs\Output\RastersBias\maxent.cache\roadDens.mxe
+Extractor: max memory 1883242496, total allocated 371720192, free 320058320, used 51661872, increment 0
+Extracting random background and sample data
+Warning: Sample at 158.4926, -8.297315 in occBack.csv is missing some environmental data (e.g. popDens)
+Warning: Skipping sample at 158.4926, -8.297315
+118810 points with values for all grids
+Adding samples to background in feature space
+Command line used:  nowarnings noprefixes responsecurves jackknife outputformat=raw noaskoverwrite -a -z threads=3 replicates=5 nothreshold nohinge noautofeature noremoveduplicates outputdirectory=Output/Maxent_output/TGBias environmentallayers=Output/RastersBias/ samplesfile=Output/OccurrenceData/occBack.csv
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputformat=raw outputdirectory=Output/Maxent_output/TGBias samplesfile=Output/OccurrenceData/occBack.csv environmentallayers=Output/RastersBias/ nowarnings noaskoverwrite noremoveduplicates replicates=5 nohinge autorun novisible noautofeature threads=3 noprefixes
+Species: bias_0 bias_1 bias_2 bias_3 bias_4
+Layers: popDens roadDens
+Layertypes: Continuous Continuous
+responsecurves: true
+jackknife: true
+outputformat: raw
+outputdirectory: Output/Maxent_output/TGBias
+samplesfile: Output/OccurrenceData/occBack.csv
+environmentallayers: Output/RastersBias/
+warnings: false
+askoverwrite: false
+removeduplicates: false
+replicates: 5
+hinge: false
+autorun: true
+visible: false
+autofeature: false
+threads: 3
+prefixes: false
+
+getSamples: max memory 1883242496, total allocated 371720192, free 311215368, used 60504824, increment 8842952
+Making features
+Time since start: 2.167
+makeFeatures: max memory 1883242496, total allocated 371720192, free 311215368, used 60504824, increment 0
+bias_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 371720192, free 311215368, used 60504824, increment 0
+linearPredictor: max memory 1883242496, total allocated 371720192, free 305723816, used 65996376, increment 5491552
+FeaturedSpace: max memory 1883242496, total allocated 371720192, free 305723816, used 65996376, increment 0
+Sequential: max memory 1883242496, total allocated 371720192, free 305723816, used 65996376, increment 0
+Initial loss: 9.468387639298273
+Initial test loss: 9.468387639298273
+120: time = 0.380000 loss = 9.068708 testLoss 9.039824
+Resulting gain: 0.3996791446449617
+Time since start: 4.238
+Projecting...
+Writing file Output\Maxent_output\TGBias\bias_0.asc
+Time since start: 5.472
+Writing Output\Maxent_output\TGBias\plots\bias_0.png
+Time since start: 6.941
+bias_0 response curves
+Response curve: only popDens
+Response curve: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 301118952
+bias_0 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+Initial loss: 9.468387639298273
+makeFeatures: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+bias_0 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 168707008, used 367115328, increment 0
+Initial loss: 9.468387639298273
+120: time = 0.221000 loss = 9.088655
+Resulting gain: 0.3797325757858694
+bias_0 response curves
+100: time = 0.273000 loss = 9.414621
+Resulting gain: 0.05376677129656571
+bias_0 response curves
+Time since start: 8.212
+Jackknife: leave popDens out
+Jackknife: leave roadDens out
+Jackknife: only popDens
+Jackknife: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 535822336, free 151370096, used 384452240, increment 17336912
+makeFeatures: max memory 1883242496, total allocated 535822336, free 151370096, used 384452240, increment 17336912
+bias_0 roadDens: 
+bias_0 popDens: 
+Making features
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 4304424
+linearPredictor: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Density: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Initial loss: 9.468387639298273
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Initial loss: 9.468387639298273
+Initial test loss: 9.468387639298273
+Initial test loss: 9.468387639298273
+makeFeatures: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+bias_0 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Initial loss: 9.468387639298273
+Initial test loss: 9.468387639298273
+120: time = 0.236000 loss = 9.088655 testLoss 9.087219
+Making features
+makeFeatures: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+bias_0 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 147065672, used 388756664, increment 0
+Initial loss: 9.468387639298273
+Initial test loss: 9.468387639298273
+100: time = 0.315000 loss = 9.414621 testLoss 9.370135
+Res.gain: 0.05376677129656571
+100: time = 0.360000 loss = 9.414621 testLoss 9.370135
+120: time = 0.207000 loss = 9.088655 testLoss 9.087219
+Res.gain: 0.3797325757858694
+getSamples: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 8948600
+Making features
+makeFeatures: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 0
+bias_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 0
+linearPredictor: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 0
+Sequential: max memory 1883242496, total allocated 535822336, free 138117072, used 397705264, increment 0
+Initial loss: 9.469005495357472
+Initial test loss: 9.469005495357472
+Time since start: 9.291
+140: time = 0.251000 loss = 9.075847 testLoss 9.031960
+Resulting gain: 0.39315876895300406
+Projecting...
+Writing file Output\Maxent_output\TGBias\bias_1.asc
+Time since start: 11.671
+Writing Output\Maxent_output\TGBias\plots\bias_1.png
+Time since start: 13.255
+bias_1 response curves
+Response curve: only popDens
+Response curve: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment -113087456
+makeFeatures: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment -113087456
+bias_1 popDens: 
+bias_1 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+3259 samples
+Density: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+Density: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+Initial loss: 9.469005495357472
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 494474160, used 284617808, increment 0
+Initial loss: 9.469005495357472
+120: time = 0.188000 loss = 9.096715
+Resulting gain: 0.3722900543929484
+bias_1 response curves
+100: time = 0.229000 loss = 9.411384
+Resulting gain: 0.05762119198258375
+bias_1 response curves
+Jackknife: leave popDens out
+Jackknife: leave roadDens out
+Jackknife: only popDens
+Jackknife: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 23498568
+makeFeatures: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 23498568
+bias_1 roadDens: 
+bias_1 popDens: 
+Making features
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+3259 samples
+Density: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Density: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Initial loss: 9.469005495357472
+Initial loss: 9.469005495357472
+Initial test loss: 9.469005495357472
+Initial test loss: 9.469005495357472
+makeFeatures: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+bias_1 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Initial loss: 9.469005495357472
+Initial test loss: 9.469005495357472
+120: time = 0.184000 loss = 9.096715 testLoss 9.061603
+Making features
+makeFeatures: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+bias_1 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Initial loss: 9.469005495357472
+Initial test loss: 9.469005495357472
+Time since start: 14.266
+100: time = 0.232000 loss = 9.411384 testLoss 9.400995
+Res.gain: 0.05762119198258375
+100: time = 0.237000 loss = 9.411384 testLoss 9.400995
+120: time = 0.177000 loss = 9.096715 testLoss 9.061603
+Res.gain: 0.3722900543929484
+getSamples: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Making features
+makeFeatures: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+bias_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+linearPredictor: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 779091968, free 470975592, used 308116376, increment 0
+Sequential: max memory 1883242496, total allocated 779091968, free 457734152, used 321357816, increment 13241440
+Initial loss: 9.468542139105455
+Initial test loss: 9.468542139105455
+160: time = 0.273000 loss = 9.077394 testLoss 9.011526
+Resulting gain: 0.3911484062282913
+Time since start: 15.505
+Projecting...
+Writing file Output\Maxent_output\TGBias\bias_2.asc
+Time since start: 16.912
+Writing Output\Maxent_output\TGBias\plots\bias_2.png
+Time since start: 18.927
+bias_2 response curves
+Response curve: only popDens
+Response curve: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 305365848
+makeFeatures: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 305365848
+bias_2 popDens: 
+bias_2 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+Density: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 117765296, used 626723664, increment 0
+Initial loss: 9.468542139105455
+Initial loss: 9.468542139105455
+120: time = 0.244000 loss = 9.098273
+Resulting gain: 0.37026876867644454
+bias_2 response curves
+100: time = 0.297000 loss = 9.411289
+Resulting gain: 0.0572535686607516
+bias_2 response curves
+Time since start: 19.932
+Jackknife: leave popDens out
+Jackknife: leave roadDens out
+Jackknife: only popDens
+Jackknife: only roadDens
+Making features
+makeFeatures: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 23305976
+bias_2 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Making features
+Sequential: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Initial loss: 9.468542139105455
+Initial test loss: 9.468542139105455
+makeFeatures: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+bias_2 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Making features
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Initial loss: 9.468542139105455
+Initial test loss: 9.468542139105455
+makeFeatures: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+bias_2 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Initial loss: 9.468542139105455
+Initial test loss: 9.468542139105455
+120: time = 0.197000 loss = 9.098273 testLoss 9.047921
+Making features
+makeFeatures: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+bias_2 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 94459320, used 650029640, increment 0
+Initial loss: 9.468542139105455
+Initial test loss: 9.468542139105455
+100: time = 0.237000 loss = 9.411289 testLoss 9.389901
+100: time = 0.247000 loss = 9.411289 testLoss 9.389901
+Res.gain: 0.0572535686607516
+120: time = 0.182000 loss = 9.098273 testLoss 9.047921
+Res.gain: 0.37026876867644454
+getSamples: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 2458416
+Making features
+makeFeatures: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 0
+bias_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 0
+linearPredictor: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 0
+Sequential: max memory 1883242496, total allocated 744488960, free 92000904, used 652488056, increment 0
+Initial loss: 9.468696615046134
+Initial test loss: 9.468696615046134
+160: time = 0.275000 loss = 9.066329 testLoss 9.065401
+Resulting gain: 0.402367313536967
+Time since start: 21.211
+Projecting...
+Writing file Output\Maxent_output\TGBias\bias_3.asc
+Time since start: 22.644
+Writing Output\Maxent_output\TGBias\plots\bias_3.png
+Time since start: 25.182
+bias_3 response curves
+Response curve: only popDens
+Response curve: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment -286125064
+bias_3 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+makeFeatures: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+bias_3 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+linearPredictor: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+Density: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+linearPredictor: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+Initial loss: 9.468696615046134
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 314162832, used 366362992, increment 0
+Initial loss: 9.468696615046134
+120: time = 0.316000 loss = 9.087901
+Resulting gain: 0.3807957381196143
+bias_3 response curves
+100: time = 0.402000 loss = 9.411991
+Resulting gain: 0.05670540828531223
+bias_3 response curves
+Time since start: 26.407
+Jackknife: leave popDens out
+Jackknife: leave roadDens out
+Jackknife: only popDens
+Jackknife: only roadDens
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 680525824, free 294295200, used 386230624, increment 19867632
+bias_3 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 680525824, free 294295200, used 386230624, increment 0
+linearPredictor: max memory 1883242496, total allocated 680525824, free 294295200, used 386230624, increment 0
+makeFeatures: max memory 1883242496, total allocated 680525824, free 294295200, used 386230624, increment 0
+bias_3 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 294191600, used 386334224, increment 103600
+Sequential: max memory 1883242496, total allocated 680525824, free 294191600, used 386334224, increment 0
+Initial loss: 9.468696615046134
+Initial test loss: 9.468696615046134
+makeFeatures: max memory 1883242496, total allocated 680525824, free 294191600, used 386334224, increment 0
+bias_3 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 680525824, free 294088000, used 386437824, increment 103600
+linearPredictor: max memory 1883242496, total allocated 680525824, free 293984400, used 386541424, increment 103600
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 293984400, used 386541424, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 293984400, used 386541424, increment 0
+Initial loss: 9.468696615046134
+Initial test loss: 9.468696615046134
+Density: max memory 1883242496, total allocated 680525824, free 294191600, used 386334224, increment 103600
+linearPredictor: max memory 1883242496, total allocated 680525824, free 292567896, used 387957928, increment 1623704
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 292567896, used 387957928, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 292567896, used 387957928, increment 0
+Initial loss: 9.468696615046134
+Initial test loss: 9.468696615046134
+120: time = 0.300000 loss = 9.087901 testLoss 9.102440
+Making features
+makeFeatures: max memory 1883242496, total allocated 680525824, free 291047856, used 389477968, increment 1520040
+bias_3 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3259 samples
+Density: max memory 1883242496, total allocated 680525824, free 290944256, used 389581568, increment 103600
+linearPredictor: max memory 1883242496, total allocated 680525824, free 290840656, used 389685168, increment 103600
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 290840656, used 389685168, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 290840656, used 389685168, increment 0
+Initial loss: 9.468696615046134
+Initial test loss: 9.468696615046134
+100: time = 0.404000 loss = 9.411991 testLoss 9.387863
+Res.gain: 0.05670540828531223
+100: time = 0.390000 loss = 9.411991 testLoss 9.387863
+120: time = 0.264000 loss = 9.087901 testLoss 9.102440
+Res.gain: 0.3807957381196143
+getSamples: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 12694088
+Making features
+makeFeatures: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 0
+bias_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+Density: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 0
+linearPredictor: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 0
+Sequential: max memory 1883242496, total allocated 680525824, free 278146568, used 402379256, increment 0
+Initial loss: 9.468851067127684
+Initial test loss: 9.468851067127684
+Time since start: 28.32
+140: time = 1.024000 loss = 9.079628 testLoss 9.013576
+Resulting gain: 0.389222707352058
+Projecting...
+Writing file Output\Maxent_output\TGBias\bias_4.asc
+Time since start: 30.396
+Writing Output\Maxent_output\TGBias\plots\bias_4.png
+Time since start: 32.203
+bias_4 response curves
+Response curve: only popDens
+Response curve: only roadDens
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment -174748680
+bias_4 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+Density: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+makeFeatures: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+bias_4 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+Initial loss: 9.468851067127684
+Density: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 392602128, used 227630576, increment 0
+Initial loss: 9.468851067127684
+120: time = 0.209000 loss = 9.100602
+Resulting gain: 0.3682490401326657
+bias_4 response curves
+100: time = 0.258000 loss = 9.411044
+Resulting gain: 0.05780735243369861
+bias_4 response curves
+Jackknife: leave popDens out
+Jackknife: leave roadDens out
+Jackknife: only popDens
+Jackknife: only roadDens
+Making features
+Making features
+Making features
+makeFeatures: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 19832360
+bias_4 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+makeFeatures: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+bias_4 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+Density: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+makeFeatures: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+bias_4 popDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+Density: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Density: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Initial loss: 9.468851067127684
+Initial test loss: 9.468851067127684
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Initial loss: 9.468851067127684
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 372769768, used 247462936, increment 0
+Initial loss: 9.468851067127684
+Initial test loss: 9.468851067127684
+Initial test loss: 9.468851067127684
+Time since start: 33.457
+120: time = 0.338000 loss = 9.100602 testLoss 9.040011
+100: time = 0.406000 loss = 9.411044 testLoss 9.409082
+Res.gain: 0.05780735243369861
+100: time = 0.410000 loss = 9.411044 testLoss 9.409082
+Making features
+makeFeatures: max memory 1883242496, total allocated 620232704, free 370398752, used 249833952, increment 2371016
+bias_4 roadDens: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+3260 samples
+Density: max memory 1883242496, total allocated 620232704, free 370398752, used 249833952, increment 0
+linearPredictor: max memory 1883242496, total allocated 620232704, free 370295136, used 249937568, increment 103616
+FeaturedSpace: max memory 1883242496, total allocated 620232704, free 370295136, used 249937568, increment 0
+Sequential: max memory 1883242496, total allocated 620232704, free 370295136, used 249937568, increment 0
+Initial loss: 9.468851067127684
+Initial test loss: 9.468851067127684
+120: time = 0.210000 loss = 9.100602 testLoss 9.040011
+Res.gain: 0.3682490401326657
+Time since start: 34.684
+Creating average grid, stddev grid etc.
+Writing file Output\Maxent_output\TGBias\bias_avg.asc
+Writing file Output\Maxent_output\TGBias\bias_stddev.asc
+Writing file Output\Maxent_output\TGBias\bias_min.asc
+Writing file Output\Maxent_output\TGBias\bias_max.asc
+Writing file Output\Maxent_output\TGBias\bias_median.asc
+Time since start: 42.032
+Writing Output\Maxent_output\TGBias\plots\bias_avg.png
+Time since start: 42.032
+Writing Output\Maxent_output\TGBias\plots\bias_min.png
+Writing Output\Maxent_output\TGBias\plots\bias_stddev.png
+Time since start: 44.421
+Writing Output\Maxent_output\TGBias\plots\bias_max.png
+Writing Output\Maxent_output\TGBias\plots\bias_median.png
+Time since start: 46.945
+bias average response curves
+Time since start: 48.595
+Ending
